@@ -15,9 +15,11 @@ public class List_Users
 	public int getPage() {
 		return page;
 	}
+	
 	public void setPage(int page) {
 		this.page = page;
 	}
+	
 	public int getPer_page() {
 		return per_page;
 	}

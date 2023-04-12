@@ -22,8 +22,8 @@ public class Get_Request
 		for (Data data : all_data) 
 		{
 			String name = data.getLast_name();
-			int id = data.getId();
-			System.out.println(id);
+			String fName = data.getFirst_name();
+			System.out.println(fName);
 		}
 	}
 }
